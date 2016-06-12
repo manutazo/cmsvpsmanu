@@ -11,6 +11,10 @@ body{
     background: #00ccff;
     margin-bottom: 80px;
     background-image: url('../images/background-image.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -32,7 +36,7 @@ h2{
     font-size: 20px;
 }
 
-h3.logo{
+h2.subtitle{
     font-family: 'Lemon', cursive;
 }
 
@@ -43,13 +47,6 @@ h3{
 a{
     color: #000;
     text-decoration: none;
-}
-
-a, button{
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
 }
 
 h2{
@@ -86,4 +83,11 @@ h2{
 
 .text-tec{
   margin-top: 8%;
+}
+
+.logo img{
+  max-width: 40%;
+  margin: auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
